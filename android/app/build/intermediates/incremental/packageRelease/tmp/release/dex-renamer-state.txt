@@ -1,0 +1,4 @@
+#Mon May 01 11:49:20 NZST 2023
+base.0=/Users/sergioturcheniuk/test/AwesomeProject/android/app/build/intermediates/dex/release/mergeDexRelease/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
