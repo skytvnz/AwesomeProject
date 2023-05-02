@@ -63,6 +63,7 @@ function App(): JSX.Element {
   };
 
   useEffect(() => {
+    //comment or uncomment fetch code to test this issue
     fetch("http://example.com/movies.json").then(response => {
       return response.json();
     }).then(res => {
