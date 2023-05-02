@@ -63,12 +63,11 @@ function App(): JSX.Element {
   };
 
   useEffect(() => {
-    // fetch("http://example.com/movies.json").then(response => {
-    //   return response.json();
-    // }).then(res => {
-    //   console.log('res', res)
-    // }).catch(err => console.error(err));
-    // console.log(jsonData);
+    fetch("http://example.com/movies.json").then(response => {
+      return response.json();
+    }).then(res => {
+      console.log('res', res)
+    }).catch(err => console.error(err));
 
   }, []);
 
